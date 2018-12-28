@@ -1,5 +1,6 @@
 let mysql = require('mysql');
-let con = mysql.createConnection({
+let con = mysql.createPool({
+    connectionLimit: 10,
     host: "us-cdbr-iron-east-01.cleardb.net",
     user: "b838f23e0ccd2f",
     database: "heroku_ddbccdd8f17ccfa",

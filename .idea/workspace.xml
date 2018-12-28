@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="820e10be-1d38-4035-b87b-ded10a975da2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
+      <change beforePath="$PROJECT_DIR$/controllers/dataController.js" afterPath="$PROJECT_DIR$/controllers/dataController.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dataController.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="dataController.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controllers/dataController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="23" />
+            <state relative-caret-position="102">
+              <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -57,7 +57,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
@@ -98,10 +98,10 @@
         <option value="$PROJECT_DIR$/public/stylesheets/form.css" />
         <option value="$PROJECT_DIR$/frontend/form.css" />
         <option value="$PROJECT_DIR$/routes/data.js" />
-        <option value="$PROJECT_DIR$/controllers/dataController.js" />
         <option value="$PROJECT_DIR$/frontend/index.html" />
         <option value="$PROJECT_DIR$/public/javascripts/first.js" />
         <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/controllers/dataController.js" />
       </list>
     </option>
   </component>
@@ -236,7 +236,7 @@
       <option name="presentableId" value="Default" />
       <updated>1545903965354</updated>
       <workItem from="1545903967672" duration="6401000" />
-      <workItem from="1545983771864" duration="9643000" />
+      <workItem from="1545983771864" duration="10661000" />
     </task>
     <task id="LOCAL-00001" summary="added apis for getting distinct values">
       <created>1545993387596</created>
@@ -245,11 +245,18 @@
       <option name="project" value="LOCAL" />
       <updated>1545993387596</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fixed minor bugs">
+      <created>1545993460856</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1545993460856</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16044000" />
+    <option name="totallyTimeSpent" value="17062000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -303,7 +310,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added apis for getting distinct values" />
-    <option name="LAST_COMMIT_MESSAGE" value="added apis for getting distinct values" />
+    <MESSAGE value="fixed minor bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed minor bugs" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -415,14 +423,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/dataController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/first.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
@@ -435,6 +435,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/dataController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
           <folding />
         </state>
       </provider>

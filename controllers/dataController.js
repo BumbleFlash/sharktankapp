@@ -55,3 +55,38 @@ function buildQuery(season,episode,amount,investor,gender){
 
 
 }
+
+exports.getDistinctSeasons = function (req, res) {
+    var sql = "Select distinct season from sharktankdata;";
+    con.query(sql, function (err, rows, fields) {
+        if (err)
+            throw err;
+        else {
+            res.json(rows);
+        }
+    })
+}
+
+exports.getDistinctEpisodes = function (req, res) {
+    var sql = "Select distinct episode from sharktankdata;";
+    con.query(sql, function (err, rows, fields) {
+        if (err)
+            throw err;
+        else {
+            res.json(rows);
+        }
+    })
+}
+
+exports.getDistinctAmount = function (req, res) {
+    var sql = "Select distinct amount from sharktankdata;";
+    con.query(sql, function (err, rows, fields) {
+        if (err)
+            throw err;
+        else {
+            res.json(rows);
+        }
+    })
+}
+
+

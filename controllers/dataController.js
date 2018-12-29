@@ -24,6 +24,7 @@ exports.getFilteredData = function(req,res){
       let amount = req.body.amount;
       let gender = req.body.gender;
       let sql;
+    console.log(season);
       sql = buildQuery(season,episode,amount,investor,gender);
 
 
@@ -37,15 +38,15 @@ exports.getFilteredData = function(req,res){
 };
 function buildQuery(season,episode,amount,investor,gender){
     let s = "Select * from sharktankdata where ";
-    if(season!=="")
+    if (season !== "No Filter")
         s+= "season= '"+season+"' and ";
-    if(episode!=="")
+    if (episode !== "No Filter")
         s+="episode='"+episode+"' and ";
-    if(investor!=="")
+    if (investor !== "No Filter")
         s+=investor+"= '1' and ";
-    if(amount!=="")
+    if (amount !== "No Filter")
         s+="amount='"+amount+"' and ";
-    if(gender!=="")
+    if (gender !== "No Filter")
         s+="gender ='"+gender+"' and ";
     s = s.slice(0,-5);
     s+=";";
